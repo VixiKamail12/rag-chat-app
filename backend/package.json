@@ -1,0 +1,22 @@
+{
+  "name": "rag-chat-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "elysia --listen 3001",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "elysia": "^1.1.0",
+    "better-sqlite3": "^0.5.0",
+    "@huggingface/transformers": "^9.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@elysiajs/cors": "^1.1.0",
+    "@elysiajs/openapi": "^1.1.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
