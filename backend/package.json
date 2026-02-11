@@ -11,7 +11,9 @@
     "elysia": "^1.1.0",
     "better-sqlite3": "^0.5.0",
     "@huggingface/transformers": "^9.0.0",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.4.0",
+    "openai": "^4.71.1",
+    "@anthropic-ai/sdk": "^0.33.1"
   },
   "devDependencies": {
     "@elysiajs/cors": "^1.1.0",
